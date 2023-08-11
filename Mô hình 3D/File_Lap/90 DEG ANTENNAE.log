@@ -1,0 +1,156 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 28-FEB-2023  7:36:50 PM
+! INFO-      
+! STATUS-   Converting Part: I:\My Drive\trong_phuc.firm@Phuc080201\Ổ D\Do An\QuanTracVe\QT\CK\NX\File Tai Ve\AngTen\90 DEG ANTENNAE.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP214
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        90 DEG ANTENNAE.STEP
+! SUMMARY-  Date             2021-12-23T19:47:58
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2018
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:    487
+! SUMMARY-  application_context ........................................:      6
+! SUMMARY-  axis2_placement_3d .........................................:    530
+! SUMMARY-  b_spline_curve_with_knots ..................................:    394
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:     14
+! SUMMARY-  b_spline_surface_with_knots ................................:    104
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:     13
+! SUMMARY-  cartesian_point ............................................:  11764
+! SUMMARY-  circle .....................................................:    155
+! SUMMARY-  closed_shell ...............................................:      2
+! SUMMARY-  conical_surface ............................................:      5
+! SUMMARY-  context_dependent_shape_representation .....................:      2
+! SUMMARY-  conversion_based_unit_and_length_unit ......................:    130
+! SUMMARY-  cylindrical_surface ........................................:     75
+! SUMMARY-  dimensional_exponents ......................................:    130
+! SUMMARY-  direction ..................................................:   1748
+! SUMMARY-  edge_curve .................................................:   1251
+! SUMMARY-  edge_loop ..................................................:    547
+! SUMMARY-  face_bound .................................................:     34
+! SUMMARY-  face_outer_bound ...........................................:    513
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:    130
+! SUMMARY-  item_defined_transformation ................................:      2
+! SUMMARY-  length_measure_with_unit ...................................:    130
+! SUMMARY-  length_unit_and_si_unit ....................................:    130
+! SUMMARY-  line .......................................................:    688
+! SUMMARY-  manifold_solid_brep ........................................:      2
+! SUMMARY-  next_assembly_usage_occurrence .............................:      2
+! SUMMARY-  oriented_edge ..............................................:   2502
+! SUMMARY-  plane ......................................................:    249
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:    130
+! SUMMARY-  product ....................................................:      3
+! SUMMARY-  product_context ............................................:      3
+! SUMMARY-  product_definition .........................................:      3
+! SUMMARY-  product_definition_context .................................:      3
+! SUMMARY-  product_definition_formation_with_specified_source .........:      3
+! SUMMARY-  product_definition_shape ...................................:      5
+! SUMMARY-  product_related_product_category ...........................:      3
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:      2
+! SUMMARY-  shape_representation .......................................:      3
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:    130
+! SUMMARY-  spherical_surface ..........................................:      7
+! SUMMARY-  toroidal_surface ...........................................:     34
+! SUMMARY-  uncertainty_measure_with_unit ..............................:    130
+! SUMMARY-  vector .....................................................:    688
+! SUMMARY-  vertex_point ...............................................:    820
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          23706
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 28-FEB-2023 7:36:50 PM
+! STATUS-    
+! INFO-     CV0305 The entities referenced by a context_dependant_shape_rep are
+! INFO-       not coded as to STEP Part 43 requirements.  The references to the
+! INFO-       component and assembly pieces is out of order.  We will attempt
+! INFO-       to correct this with the given data.  This problem should be
+! INFO-       reported to the translator vendor whose product generated this
+! INFO-       STEP file.  If we are unable to rectify this problem the
+! INFO-       components may be positioned incorrectly.
+! INFO-      
+! INFO-     CV : STEP Ent Id      22341 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2023  7:36:50 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 22554
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: I:\My Drive\trong_phuc.firm@Phuc080201\Ổ D\Do An\QuanTracVe\QT\CK\NX\Tau_hai_Than\File Assembly\61000409-5_ROUTER, 5_2.4 Ghz, ANTENNAE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2023  7:36:51 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 16240
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: I:\My Drive\trong_phuc.firm@Phuc080201\Ổ D\Do An\QuanTracVe\QT\CK\NX\Tau_hai_Than\File Assembly\61000409-6_ROUTER, MOUNT, THREADED, ANTENNAE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2023  7:36:54 PM
+! INFO-     Filing Part ..: I:\My Drive\trong_phuc.firm@Phuc080201\Ổ D\Do An\QuanTracVe\QT\CK\NX\Tau_hai_Than\File Assembly\90 DEG ANTENNAE.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         2
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         2
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 28-FEB-2023  7:36:54 PM
+! INFO-      

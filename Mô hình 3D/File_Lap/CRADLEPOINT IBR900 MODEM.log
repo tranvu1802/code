@@ -1,0 +1,440 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 28-FEB-2023  7:41:20 PM
+! INFO-      
+! STATUS-   Converting Part: I:\My Drive\trong_phuc.firm@Phuc080201\Ổ D\Do An\QuanTracVe\QT\CK\NX\File Tai Ve\Gan_AngTen\CRADLEPOINT IBR900 MODEM.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP214
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        CRADLEPOINT IBR900 MODEM.STEP
+! SUMMARY-  Date             2021-12-23T16:21:33
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2018
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:    948
+! SUMMARY-  application_context ........................................:      2
+! SUMMARY-  axis2_placement_3d .........................................:   1624
+! SUMMARY-  b_spline_curve_with_knots ..................................:    246
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:     98
+! SUMMARY-  b_spline_surface_with_knots ................................:     10
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    132
+! SUMMARY-  cartesian_point ............................................:  19434
+! SUMMARY-  circle .....................................................:    817
+! SUMMARY-  closed_shell ...............................................:     31
+! SUMMARY-  conical_surface ............................................:     43
+! SUMMARY-  conversion_based_unit_and_length_unit ......................:    981
+! SUMMARY-  cylindrical_surface ........................................:    306
+! SUMMARY-  dimensional_exponents ......................................:    981
+! SUMMARY-  direction ..................................................:   4130
+! SUMMARY-  edge_curve .................................................:   2043
+! SUMMARY-  edge_loop ..................................................:   1046
+! SUMMARY-  face_bound .................................................:     53
+! SUMMARY-  face_outer_bound ...........................................:    993
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:    981
+! SUMMARY-  length_measure_with_unit ...................................:    981
+! SUMMARY-  length_unit_and_si_unit ....................................:    981
+! SUMMARY-  line .......................................................:    882
+! SUMMARY-  manifold_solid_brep ........................................:     31
+! SUMMARY-  oriented_edge ..............................................:   4086
+! SUMMARY-  plane ......................................................:    302
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:    981
+! SUMMARY-  product ....................................................:      1
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:      1
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation_with_specified_source .........:      1
+! SUMMARY-  product_definition_shape ...................................:      1
+! SUMMARY-  product_related_product_category ...........................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:    981
+! SUMMARY-  spherical_surface ..........................................:     60
+! SUMMARY-  toroidal_surface ...........................................:     95
+! SUMMARY-  uncertainty_measure_with_unit ..............................:    981
+! SUMMARY-  vector .....................................................:    882
+! SUMMARY-  vertex_point ...............................................:   1243
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                          47392
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 28-FEB-2023 7:41:22 PM
+! STATUS-    
+! INFO-     CV : STEP Ent Id      33387 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      29229 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      41038 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      14867 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      55727 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2023  7:41:22 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 53228
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 33386
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2031
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 47204
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 53937
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 28491
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 41232
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 49672
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 12941
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 14699
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 6965
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 51437
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 23239
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 24961
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 30926
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 17183
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 55711
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 32679
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 43001
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 26735
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 12236
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 16464
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2731
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 35175
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 43730
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 20749
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 22535
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 4441
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 297
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 29196
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 6233
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: I:\My Drive\trong_phuc.firm@Phuc080201\Ổ D\Do An\QuanTracVe\QT\CK\NX\Tau_hai_Than\File Assembly\CRADLEPOINT IBR900 MODEM.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    31
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             31
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        31
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        31
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 28-FEB-2023  7:42:09 PM
+! INFO-      

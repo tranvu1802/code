@@ -1,0 +1,313 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 14-MAR-2023  4:41:15 PM
+! INFO-      
+! STATUS-   Converting Part: I:\My Drive\trong_phuc.firm@Phuc080201\Do_An\Do An\QuanTracVe\QT\CK\NX\File Tai Ve\gps-m8n_Ass\GPS_MN8_ASM_STEP.STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP203
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        GPS_MN8_ASM_STEP.STEP
+! SUMMARY-  Date             2021-12-28T22:48:54
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2020
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim_lf
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:    164
+! SUMMARY-  application_context ........................................:      6
+! SUMMARY-  approval ...................................................:     11
+! SUMMARY-  approval_date_time .........................................:     11
+! SUMMARY-  approval_person_organization ...............................:     11
+! SUMMARY-  approval_role ..............................................:     11
+! SUMMARY-  approval_status ............................................:     11
+! SUMMARY-  axis2_placement_3d .........................................:    305
+! SUMMARY-  b_spline_curve_with_knots ..................................:    117
+! SUMMARY-  b_spline_surface_with_knots ................................:      7
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:     10
+! SUMMARY-  calendar_date ..............................................:     19
+! SUMMARY-  cartesian_point ............................................:   2554
+! SUMMARY-  cc_design_approval .........................................:     11
+! SUMMARY-  cc_design_date_and_time_assignment .........................:      8
+! SUMMARY-  cc_design_person_and_organization_assignment ...............:     17
+! SUMMARY-  cc_design_security_classification ..........................:      5
+! SUMMARY-  circle .....................................................:    153
+! SUMMARY-  closed_shell ...............................................:      2
+! SUMMARY-  conical_surface ............................................:      6
+! SUMMARY-  context_dependent_shape_representation .....................:      2
+! SUMMARY-  coordinated_universal_time_offset ..........................:     19
+! SUMMARY-  cylindrical_surface ........................................:     51
+! SUMMARY-  date_and_time ..............................................:     19
+! SUMMARY-  date_time_role .............................................:      8
+! SUMMARY-  design_context .............................................:      3
+! SUMMARY-  direction ..................................................:    805
+! SUMMARY-  edge_curve .................................................:    465
+! SUMMARY-  edge_loop ..................................................:    196
+! SUMMARY-  face_bound .................................................:     32
+! SUMMARY-  face_outer_bound ...........................................:    164
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      3
+! SUMMARY-  item_defined_transformation ................................:      2
+! SUMMARY-  length_unit_and_si_unit ....................................:      3
+! SUMMARY-  line .......................................................:    195
+! SUMMARY-  local_time .................................................:     19
+! SUMMARY-  manifold_solid_brep ........................................:      2
+! SUMMARY-  mechanical_context .........................................:      3
+! SUMMARY-  next_assembly_usage_occurrence .............................:      2
+! SUMMARY-  organization ...............................................:      3
+! SUMMARY-  oriented_edge ..............................................:    930
+! SUMMARY-  person .....................................................:      3
+! SUMMARY-  person_and_organization ....................................:     26
+! SUMMARY-  person_and_organization_role ...............................:     17
+! SUMMARY-  plane ......................................................:     63
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      3
+! SUMMARY-  product ....................................................:      3
+! SUMMARY-  product_definition .........................................:      3
+! SUMMARY-  product_definition_formation_with_specified_source .........:      3
+! SUMMARY-  product_definition_shape ...................................:      5
+! SUMMARY-  product_related_product_category ...........................:      3
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:      2
+! SUMMARY-  security_classification ....................................:      5
+! SUMMARY-  security_classification_level ..............................:      5
+! SUMMARY-  shape_representation .......................................:      3
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      3
+! SUMMARY-  toroidal_surface ...........................................:     27
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      3
+! SUMMARY-  vector .....................................................:    195
+! SUMMARY-  vertex_point ...............................................:    329
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                           7066
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 14-MAR-2023 4:41:16 PM
+! STATUS-    
+! INFO-     CV0305 The entities referenced by a context_dependant_shape_rep are
+! INFO-       not coded as to STEP Part 43 requirements.  The references to the
+! INFO-       component and assembly pieces is out of order.  We will attempt
+! INFO-       to correct this with the given data.  This problem should be
+! INFO-       reported to the translator vendor whose product generated this
+! INFO-       STEP file.  If we are unable to rectify this problem the
+! INFO-       components may be positioned incorrectly.
+! INFO-      
+! INFO-     CV : STEP Ent Id       6848 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       2392 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       6567 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       4346 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       6775 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       3269 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id        880 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       1604 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       4334 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       4888 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       6436 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       1584 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id        713 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       2840 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       6174 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       5919 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       4735 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id        278 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       2975 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-MAR-2023  4:41:16 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 5251
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: I:\My Drive\trong_phuc.firm@Phuc080201\Do_An\Do An\QuanTracVe\QT\CK\NX\Tau_hai_Than\File Assembly\GPS MODÜLÜ ÝSKELETÝ
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-MAR-2023  4:41:21 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2906
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: I:\My Drive\trong_phuc.firm@Phuc080201\Do_An\Do An\QuanTracVe\QT\CK\NX\Tau_hai_Than\File Assembly\GPS M8N
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 14-MAR-2023  4:41:22 PM
+! INFO-     Filing Part ..: I:\My Drive\trong_phuc.firm@Phuc080201\Do_An\Do An\QuanTracVe\QT\CK\NX\Tau_hai_Than\File Assembly\GPS_MN8_ASM_STEP.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         2
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         2
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 14-MAR-2023  4:41:22 PM
+! INFO-      
